@@ -31,15 +31,12 @@ main {
 .conteneur {
 	margin: 15px;
 	padding: 10px;
-	width: 100%;
-	max-width: 960px;
 }
 
 .colonne {
-    width: 31%;
+    width: 30%;
     display: inline-block;
    	vertical-align: top;
-    padding: 15px;
 }
 
 h1 {
@@ -52,31 +49,23 @@ h1 {
 h2 {
 	font-family: Arial, sans-serif;
 	text-align: center;
-	display: inline-block;
 }
 
 ul, li {
-	list-style-type: none;
-	font-family: Arial, sans-serif;
-	display: inline-block;
-	vertical-align: top;
-	text-align: justify;
-	padding-bottom: 0;
-	padding-left: 0;
-	padding-right: 20px;
+    list-style-type:none;
+    color:white;
 }
 
 footer {
-   	position:absolute;
    	bottom:0;
 }
 
 footer p{
 	font-family: Arial, sans-serif;
-    text-align:center;
-    width:30%;
-    display:inline-block;
-    margin-left:30px;
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    margin-left: 30px;
 }
 
 iframe{
